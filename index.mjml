@@ -1,0 +1,545 @@
+<mjml>
+  <mj-head>
+    <mj-html-attributes>
+      <mj-selector path=".list table table">
+        <mj-html-attribute name="role">list</mj-html-attribute>
+      </mj-selector>
+      <mj-selector path=".list table table > tbody">
+        <mj-html-attribute name="role">presentation</mj-html-attribute>
+      </mj-selector>
+    </mj-html-attributes>
+    <!-- This sets attributes for the entire email. See
+         https://documentation.mjml.io/#mj-attributes -->
+    <mj-attributes>
+      <mj-all
+        font-size="16px"
+        color="#333"
+        font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Liberation Sans, Helvetica, Arial, sans-serif"
+      />
+    </mj-attributes>
+
+    <!-- These CSS styles will be automatically applied and inlined by MJML.
+         See https://documentation.mjml.io/#mj-style -->
+    <!-- prettier-ignore -->
+    <mj-style inline="inline">
+      .list {
+      }
+      .list-item {
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper padding-top="0px">
+
+      <mj-section background-color="white" padding-top="0px">
+        <mj-column>
+          <!-- Top Section -->
+          <mj-image src="https://i.imgur.com/I1Smi7Z.png" padding-top="0px"/>
+          <mj-text
+            font-size="26px"
+            font-weight="800"
+            color="#ff5a5a"
+            line-height="30px"
+            font-family="Inter, Helvetica, Robot, Arial, sans-serif"
+            padding-top="0px"
+            padding-bottom="0px"
+          >
+            Local Newsletter
+          </mj-text>
+          <mj-text
+            font-family="Inter, Helvetica"
+            font-size="24px"
+            font-weight="800"
+            line-height="30px"
+            color="#262626"
+            padding-top="0px"
+          >
+            Madera, CA
+          </mj-text>
+          <mj-text font-size="12px" padding-top="0px" color="#066dff">
+            <a
+              href="https://www.newsbreaklocal.com/redirect/aHR0cHM6Ly93d3cubmV3c2JyZWFrLmNvbS9uZXdzbGV0dGVyL3Vuc3Vic2NyaWJlP2NpdHk9TWFkZXJhLCBDQSZtZXNzYWdlX2lkPVZMNXo1VkItMVNoUHJVcWImZW1haWw9ZGpzdXBhNDA4QGdtYWlsLmNvbSZ0b3BpYz1wYXNzaXZlX2xvY2FsJnRhZz1tb3JuaW5nJnR5cGU9ZG1nX2xvY2FsX2VtYWlsX2J1Y2tldF83JmV4cHM9bmxfYnVja2V0X2V4cF8yNF8xLXY0NCxubF9tb25ldGl6YXRpb25fMjRfMS12MTEsbmxfcHJlcm9sbG91dF8yNF8yLXYxLG5vdmFfdHJhZmZpY19leHBfZnVsbF8wOS12OSZ6aXA9OTM2MzcmYnVja2V0PWRtZ19sb2NhbF9lbWFpbF9idWNrZXRfNyZldmVudF9uYW1lPWVtYWlsQ2hhbmdlTG9jYXRpb25MaW5rJmNoYW5nZV96aXBfb25seT10cnVlJm1ldGE9ZXlKemRXSnpYM1J2Y0dsaklqb2dJbXh2WTJGc0lpd2dJbVp5WlhFaU9pQWlaR0ZwYkhraUxDQWljMlZ1WkY5MGN5STZJREUzTVRnek1EUXpNalo5"
+              >Change location</a
+            >
+          </mj-text>
+          <mj-divider border-width="1px" />
+          <mj-text
+            font-family="Inter, Helvetica"
+            font-size="12px"
+            font-weight="800"
+            line-height="15px"
+          >
+            Thursday, June 13th, 2024
+          </mj-text>
+          <mj-text
+            font-family="Inter, Helvetica"
+            font-size="12px"
+            line-height="15px"
+            padding-bottom="0px"
+          >
+            59°F / 97°F Sunny <br />
+            See full forecast
+            <a
+              href="https://www.newsbreaklocal.com/redirect/aHR0cDovL3d3dy5hY2N1d2VhdGhlci5jb20vZW4vdXMvbWFkZXJhLWNhLzkzNjM3L2RhaWx5LXdlYXRoZXItZm9yZWNhc3QvMzkyMDVfcGM%2FbGFuZz1lbi11cyZwYXJ0bmVyPXdlYl9uZXdzYnJlYWtfbmV3c2xldHRlcl9hZGMmYnVja2V0PWRtZ19sb2NhbF9lbWFpbF9idWNrZXRfNyZtZXNzYWdlX2lkPVZMNXo1VkItMVNoUHJVcWImdGFnPW1vcm5pbmcmZXhwcz1ubF9idWNrZXRfZXhwXzI0XzEtdjQ0JTJDbmxfbW9uZXRpemF0aW9uXzI0XzEtdjExJTJDbmxfcHJlcm9sbG91dF8yNF8yLXYxJTJDbm92YV90cmFmZmljX2V4cF9mdWxsXzA5LXY5JmVtYWlsPWRqc3VwYTQwOCU0MGdtYWlsLmNvbSZldmVudF9uYW1lPWVtYWlsQWNjdVdlYXRoZXJGb3JlY2FzdExpbmsmbWV0YT1leUp6ZFdKelgzUnZjR2xqSWpvZ0lteHZZMkZzSWl3Z0ltWnlaWEVpT2lBaVpHRnBiSGtpTENBaWMyVnVaRjkwY3lJNklERTNNVGd6TURRek1qWjk%3D"
+              >here</a
+            >, powered by AccuWeather®
+          </mj-text>
+          <!-- McDonalds Section-->
+
+          <mj-divider border-width="1px" border-style="dotted" />
+          <mj-image
+            src="https://i.imgur.com/tjvkEpV.jpg"
+            alt="mcdonalds-sign"
+            href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tpVr4km&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+          />
+          <mj-text
+            font-family="Inter, Helvetica"
+            font-size="12px"
+            padding-top="0px"
+          >
+            Source: Snopes
+          </mj-text>
+          <mj-text
+            font-size="20px"
+            font-weight="800"
+            font-family="Inter, Helvetica"
+            padding-top="0px"
+          >
+            <a
+              style="text-decoration: none; color: #262626; line-height: 24px"
+              href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tpVr4km&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+              >Fact Check: McDonald's Is Considering Leaving California Due to
+              State's Minimum Wage Increase?</a
+            >
+          </mj-text>
+          <mj-text
+            padding-top="0px"
+            font-size="12px"
+            font-family="Inter,Helvetica"
+          >
+            California
+          </mj-text>
+          <mj-text font-size="14px" font-family="Inter, Helvetica">
+            <a
+              style="text-decoration: none; color: #262626"
+              href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tpVr4km&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+              >An online article claimed, "McDonald's is reportedly considering
+              a drastic measure – exiting the California market altogether."
+              <span
+                style="
+                  font-family: Inter, Helvetica;
+                  font-weight: 400;
+                  white-space: nowrap;
+                  color: #06f;
+                "
+                >Read More</span
+              ></a
+            >
+          </mj-text>
+          <mj-text font-size="14px">
+            <mj-raw>
+              <img
+                style="width: 1.2em; vertical-align: middle"
+                src="https://i.imgur.com/uFqVeI4.png"
+                alt=""
+              />
+              <span>1262</span>
+              <img
+                style="width: 1.2em; padding-left: 14px; vertical-align: middle"
+                src="https://i.imgur.com/OVipQ4k.png"
+                alt="thinking-bubble"
+              />
+              <span>825</span>
+              <img
+                style="width: 1.2em; padding-left: 14px; vertical-align: middle"
+                src="https://i.imgur.com/9k3FYIG.png"
+                alt=""
+              />
+              <span>319</span>
+            </mj-raw>
+          </mj-text>
+
+          <!-- Best Classic Hamburger Section-->
+
+          <mj-divider border-width="1px" border-style="dotted" />
+          <mj-image
+            src="https://i.imgur.com/b4E6UQN.jpeg"
+            alt="Classic-Hamburger"
+            href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tqPgKFn&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+          />
+          <mj-text
+            font-family="Inter, Helvetica"
+            font-size="12px"
+            padding-top="0px"
+          >
+            Source: Newsradio 600 KOGO
+          </mj-text>
+          <mj-text
+            font-size="20px"
+            font-weight="800"
+            font-family="Inter, Helvetica"
+            padding-top="0px"
+          >
+            <a
+              style="text-decoration: none; color: #262626; line-height: 24px"
+              href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tqPgKFn&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+              >California Eatery Serves The 'Best Classic Hamburger' In The
+              Entire State</a
+            >
+          </mj-text>
+          <mj-text
+            padding-top="0px"
+            font-size="12px"
+            font-family="Inter,Helvetica"
+          >
+            California
+          </mj-text>
+          <mj-text font-size="14px" font-family="Inter, Helvetica">
+            <a
+              style="text-decoration: none; color: #262626"
+              href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tqPgKFn&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+              >Here's where you can find it!
+              <span
+                style="
+                  font-family: Inter, Helvetica;
+                  font-weight: 400;
+                  white-space: nowrap;
+                  color: #06f;
+                "
+                >Read More</span
+              ></a
+            >
+          </mj-text>
+          <mj-text font-size="14px">
+            <mj-raw>
+              <img
+                style="width: 1.2em; vertical-align: middle"
+                src="https://i.imgur.com/uFqVeI4.png"
+                alt=""
+              />
+              <span>2</span>
+              <img
+                style="width: 1.2em; padding-left: 14px; vertical-align: middle"
+                src="https://i.imgur.com/OVipQ4k.png"
+                alt=""
+              />
+              <span>0</span>
+              <img
+                style="width: 1.2em; padding-left: 14px; vertical-align: middle"
+                src="https://i.imgur.com/9k3FYIG.png"
+                alt=""
+              />
+              <span>1</span>
+            </mj-raw>
+          </mj-text>
+
+          <!-- Debt and Pay Section-->
+
+          <mj-divider border-width="1px" border-style="dotted" />
+          <mj-image
+            src="https://i.imgur.com/lo0JFY9.jpeg"
+            alt="Card Critics Image"
+            href="https://www.newsbreaklocal.com/redirect-v2?originalUrl=aHR0cHM6Ly9jYXJkY3JpdGljcy5jb20vYmVzdC1jYXJkLWZvci1iYWxhbmNlLXRyYW5zZmVycy8%2FdGM9bndzYnJrLWFjMS1scDkzLWNpMjMxLWhsNzMzLXBjMC1sYzI2Mi0wNjA2MjAyNCZwdWJfYWRjb25jZXB0PWFjMSZwdWJfaW1hZ2U9Y2kyMzEmcHViX2hlYWRsaW5lPWhsNzMzJnB1Yl9zdWJoZWFkbGluZT1sYzI2MiZwdWJfaW52ZW50b3J5PXJlbW5hbnQtanVuZV9taWQmY29zdGlkPTc4OCZjYm09cnMmY2E9ODAmY3NkPTIwMjQwNjA2JnZlbmRvcl9jbGlja19pZD1udnNzXzk1OTMzYTIxMzRmNjRlYzViYzljZWIwNGJkMjg3ZDBmXzE3OTU4NTUyNTM1NjAxMTUyMDEmaXNfbm92YT10cnVlJm5iX2NpZD05NTkzM2EyMTM0ZjY0ZWM1YmM5Y2ViMDRiZDI4N2QwZl8xNzk1ODU1MjUzNTYwMTE1MjAx&bucket=dmg_local_email_bucket_7&message_id=VL5z5VB-1ShPrUqb&tag=morning&exps=nl_bucket_exp_24_1-v44%2Cnl_monetization_24_1-v11%2Cnl_prerollout_24_2-v1%2Cnova_traffic_exp_full_09-v9&email=djsupa408%40gmail.com&event_name=emailLinkClick&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rIjogIjdjckw3SFRPIiwgInBvcyI6ICJsb2dvIiwgImFkX2lkIjogIjE3OTU4NTUyNTM1NjAxMTUyMDEiLCAibm92YV9zbmFwc2hvdF9pZCI6ICI5NTkzM2EyMTM0ZjY0ZWM1YmM5Y2ViMDRiZDI4N2QwZl8xNzk1ODU1MjUzNTYwMTE1MjAxIn0%3D"
+          />
+          <mj-text
+            font-family="Inter, Helvetica"
+            font-size="12px"
+            padding-top="0px"
+          >
+            Powered by CardCritics
+          </mj-text>
+          <mj-text
+            font-size="20px"
+            font-weight="800"
+            font-family="Inter, Helvetica"
+            padding-top="0px"
+            padding-bottom="0px"
+          >
+            <a
+              style="text-decoration: none; color: #262626; line-height: 24px"
+              href="https://www.newsbreaklocal.com/redirect-v2?originalUrl=aHR0cHM6Ly9jYXJkY3JpdGljcy5jb20vYmVzdC1jYXJkLWZvci1iYWxhbmNlLXRyYW5zZmVycy8%2FdGM9bndzYnJrLWFjMS1scDkzLWNpMjMxLWhsNzMzLXBjMC1sYzI2Mi0wNjA2MjAyNCZwdWJfYWRjb25jZXB0PWFjMSZwdWJfaW1hZ2U9Y2kyMzEmcHViX2hlYWRsaW5lPWhsNzMzJnB1Yl9zdWJoZWFkbGluZT1sYzI2MiZwdWJfaW52ZW50b3J5PXJlbW5hbnQtanVuZV9taWQmY29zdGlkPTc4OCZjYm09cnMmY2E9ODAmY3NkPTIwMjQwNjA2JnZlbmRvcl9jbGlja19pZD1udnNzXzk1OTMzYTIxMzRmNjRlYzViYzljZWIwNGJkMjg3ZDBmXzE3OTU4NTUyNTM1NjAxMTUyMDEmaXNfbm92YT10cnVlJm5iX2NpZD05NTkzM2EyMTM0ZjY0ZWM1YmM5Y2ViMDRiZDI4N2QwZl8xNzk1ODU1MjUzNTYwMTE1MjAx&bucket=dmg_local_email_bucket_7&message_id=VL5z5VB-1ShPrUqb&tag=morning&exps=nl_bucket_exp_24_1-v44%2Cnl_monetization_24_1-v11%2Cnl_prerollout_24_2-v1%2Cnova_traffic_exp_full_09-v9&email=djsupa408%40gmail.com&event_name=emailLinkClick&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rIjogIjdjckw3SFRPIiwgInBvcyI6ICJib2R5IiwgImFkX2lkIjogIjE3OTU4NTUyNTM1NjAxMTUyMDEiLCAibm92YV9zbmFwc2hvdF9pZCI6ICI5NTkzM2EyMTM0ZjY0ZWM1YmM5Y2ViMDRiZDI4N2QwZl8xNzk1ODU1MjUzNTYwMTE1MjAxIn0%3D"
+              >Transfer Your Debt And Pay 0% Interest Until Nearly 2026</a
+            >
+          </mj-text>
+          <mj-text
+            font-size="14px"
+            font-family="Inter, Helvetica"
+            padding-top="0px"
+          >
+            <a
+              style="text-decoration: none; color: #262626; line-height: 24px"
+              href="https://www.newsbreaklocal.com/redirect-v2?originalUrl=aHR0cHM6Ly9jYXJkY3JpdGljcy5jb20vYmVzdC1jYXJkLWZvci1iYWxhbmNlLXRyYW5zZmVycy8%2FdGM9bndzYnJrLWFjMS1scDkzLWNpMjMxLWhsNzMzLXBjMC1sYzI2Mi0wNjA2MjAyNCZwdWJfYWRjb25jZXB0PWFjMSZwdWJfaW1hZ2U9Y2kyMzEmcHViX2hlYWRsaW5lPWhsNzMzJnB1Yl9zdWJoZWFkbGluZT1sYzI2MiZwdWJfaW52ZW50b3J5PXJlbW5hbnQtanVuZV9taWQmY29zdGlkPTc4OCZjYm09cnMmY2E9ODAmY3NkPTIwMjQwNjA2JnZlbmRvcl9jbGlja19pZD1udnNzXzk1OTMzYTIxMzRmNjRlYzViYzljZWIwNGJkMjg3ZDBmXzE3OTU4NTUyNTM1NjAxMTUyMDEmaXNfbm92YT10cnVlJm5iX2NpZD05NTkzM2EyMTM0ZjY0ZWM1YmM5Y2ViMDRiZDI4N2QwZl8xNzk1ODU1MjUzNTYwMTE1MjAx&bucket=dmg_local_email_bucket_7&message_id=VL5z5VB-1ShPrUqb&tag=morning&exps=nl_bucket_exp_24_1-v44%2Cnl_monetization_24_1-v11%2Cnl_prerollout_24_2-v1%2Cnova_traffic_exp_full_09-v9&email=djsupa408%40gmail.com&event_name=emailLinkClick&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rIjogIjdjckw3SFRPIiwgInBvcyI6ICJib2R5IiwgImFkX2lkIjogIjE3OTU4NTUyNTM1NjAxMTUyMDEiLCAibm92YV9zbmFwc2hvdF9pZCI6ICI5NTkzM2EyMTM0ZjY0ZWM1YmM5Y2ViMDRiZDI4N2QwZl8xNzk1ODU1MjUzNTYwMTE1MjAxIn0%3D"
+            >
+              <p>
+                Say hello to the the best balance transfer card of the year.
+                With this incredible offer, you'll pay no interest on balance
+                transfers for 18 months and no interest on purchases for 6
+                months. Plus, there's ongoing cash back rewards and no annual
+                fee!
+              </p>
+              <p>Enjoy the benefits and apply today.</p>
+              <span
+                style="
+                  font-family: Inter, Helvetica;
+                  font-weight: 400;
+                  white-space: nowrap;
+                  color: #06f;
+                "
+                >Learn More</span
+              ></a
+            >
+          </mj-text>
+          <!-- Fix Section -->
+          <mj-divider border-width="1px" border-style="dotted" />
+          <mj-image
+            src="https://i.imgur.com/GP2XQAg.jpeg"
+            alt="SewerImage"
+            href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tq7HXxC&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+          />
+          <mj-text
+            font-family="Inter, Helvetica"
+            font-size="12px"
+            padding-top="0px"
+          >
+            Source: ABC30 Central Valley
+          </mj-text>
+          <mj-text
+            font-size="20px"
+            font-weight="800"
+            font-family="Inter, Helvetica"
+            padding-top="0px"
+            padding-bottom="0px"
+          >
+            <a
+              style="text-decoration: none; color: #262626; line-height: 24px"
+              href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tq7HXxC&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+              >Madera leaders approve millions to fix failing sewer line</a
+            >
+          </mj-text>
+          <mj-text font-family="Inter, Helvetica" font-size="12px">
+            Near Ave 13, Madera
+          </mj-text>
+          <mj-text
+            font-size="14px"
+            font-family="Inter, Helvetica"
+            padding-top="0px"
+          >
+            <a
+              style="text-decoration: none; color: #262626; line-height: 24px"
+              href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tq7HXxC&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+            >
+              <p>
+                Madera city leaders have approved a multi-million dollar bid to
+                fix a failing sewer line that's caused serious safety concerns.
+              </p>
+              <span
+                style="
+                  font-family: Inter, Helvetica;
+                  font-weight: 400;
+                  white-space: nowrap;
+                  color: #06f;
+                "
+                >Read More</span
+              ></a
+            >
+          </mj-text>
+          <mj-text font-size="14px">
+            <mj-raw>
+              <img
+                style="width: 1.2em; vertical-align: middle"
+                src="https://i.imgur.com/uFqVeI4.png"
+                alt=""
+              />
+              <span>1</span>
+              <img
+                style="width: 1.2em; padding-left: 14px; vertical-align: middle"
+                src="https://i.imgur.com/OVipQ4k.png"
+                alt=""
+              />
+              <span>0</span>
+              <img
+                style="width: 1.2em; padding-left: 14px; vertical-align: middle"
+                src="https://i.imgur.com/9k3FYIG.png"
+                alt=""
+              />
+              <span>1</span>
+            </mj-raw>
+          </mj-text>
+          <!-- Local News Section-->
+          <mj-divider border-width="1px" border-style="dotted" />
+          <mj-text
+            font-size="20px"
+            font-weight="800"
+            font-family="Inter, Helvetica"
+            padding-top="0px"
+          >
+            More Local News For You
+          </mj-text>
+          <mj-text >
+            <ul
+              style="
+                list-style-type: disc;
+                padding: 0 8px;
+                font-family: Inter, Helvetica;
+                color: rgba(0, 0, 0, 0.85);
+                font-size: 14px;
+                font-style: normal;
+                line-height: 22px;
+                
+              "
+            >
+              <li>
+                <b
+                  >Californians Are Abandoning These 7 Cities to Move to an
+                  Obscure Idaho City</b
+                ><br />It’s no secret that Idaho’s population is growing.
+                According to the latest State-to-State one year migration flow
+                numbers from the United States Census ...
+                <a
+                  href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tq2yLvo&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&event_name=emailDocOpen&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjZ9"
+                  >(MIX 106)</a
+                >
+              </li>
+              <li>
+                <b
+                  >Eastern Iowa Man Wanted in Connection to Shooting Arrested in
+                  California</b
+                ><br />(Iowa) -- An eastern Iowa man is in custody in connection
+                to a shooting eight months ago in eastern Iowa. The U.S. Marshal
+                Service arrested Kevante ...
+                <a
+                  href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tqMBIk7&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&event_name=emailDocOpen&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjZ9"
+                  >(iheart)</a
+                >
+              </li>
+              <li>
+                <b
+                  >California pharmacist sentenced to 2 years for medicare fraud </b
+                ><br />IA California man was sentenced yesterday to two years in
+                prison for submitting more than $1 million in false and
+                fraudulent claims to Medicare for prescription ...
+                <a
+                  href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tqAru87&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&event_name=emailDocOpen&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjZ9"
+                  >(dailyplanetdc)</a
+                >
+              </li>
+              <li>
+                <b
+                  >CAL FIRE Suspends Burn Permits in Madera, Mariposa, and
+                  Merced Counties on Monday, June 17, 2024</b
+                ><br />June 13, 2024 - Mariposa – After another wet winter and
+                above average snowpack, warming temperatures and winds are
+                quickly drying out the abundant annual. ...
+                <a
+                  href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tq6emiD&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&event_name=emailDocOpen&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjZ9"
+                  >(goldrushcam)</a
+                >
+              </li>
+              <li>
+                <b>Police search for suspect after southeast Fresno shooting </b
+                ><br />FRESNO, Calif. (KSEE/KGPE) – A man is in stable condition
+                Thursday morning after he was shot in southeast Fresno,
+                according to the Fresno Police Department. Police say around
+                3:40 a.m. officers responded to a call of a person who had been
+                shot near Peach and Olive avenues. Investigators ...
+                <a
+                  href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tqBKeHj&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&event_name=emailDocOpen&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjZ9"
+                  >(YourCentralValley)</a
+                >
+              </li>
+            </ul>
+          </mj-text>
+          <mj-button
+            font-size="16px"
+            background-color="#066dff"
+            color="white"
+            border-radius="30px"
+            vertical-align="middle"
+            align="center"
+            href="https://www.newsbreaklocal.com/redirect/aHR0cHM6Ly9uZXdzYnJlYWsuY29tL21hZGVyYS1jYT9idWNrZXQ9ZG1nX2xvY2FsX2VtYWlsX2J1Y2tldF83Jm1lc3NhZ2VfaWQ9Vkw1ejVWQi0xU2hQclVxYiZ0YWc9bW9ybmluZyZleHBzPW5sX2J1Y2tldF9leHBfMjRfMS12NDQsbmxfbW9uZXRpemF0aW9uXzI0XzEtdjExLG5sX3ByZXJvbGxvdXRfMjRfMi12MSxub3ZhX3RyYWZmaWNfZXhwX2Z1bGxfMDktdjkmZW1haWw9ZGpzdXBhNDA4QGdtYWlsLmNvbSZldmVudF9uYW1lPWVtYWlsUmVhZE1vcmVMaW5rJm1ldGE9ZXlKemRXSnpYM1J2Y0dsaklqb2dJbXh2WTJGc0lpd2dJbVp5WlhFaU9pQWlaR0ZwYkhraUxDQWljMlZ1WkY5MGN5STZJREUzTVRnek1EUXpNalo5"
+          >
+            Read more local stories
+          </mj-button>
+
+          <!-- Dumbest Mistakes Section-->
+          <mj-divider border-width="1px" border-style="dotted" />
+          <mj-image
+            src="https://i.imgur.com/h8PTuHC.jpeg"
+            alt="catImage"
+            href="https://www.newsbreaklocal.com/redirect-v2?originalUrl=aHR0cHM6Ly9iZXR0ZXJidWNrLm5ldC9jb250ZW50L2V4cGVydHMtbWlzdGFrZXMvP3NvdXJjZT1uZXdzYnJlYWsmbmV3c2JyZWFrX2NpZD1udnNzXzM0ODU2ODI5ZTUzZTQ2YzhiYWMwNDRkYWI3NzlmZDQ3XzE4MDAyNTY3MDMyOTAwMjM5Mzgmc3ViaWQ9TkItTWVzc2FnZS1FeHBlcnRzLURELTMyOSZpc19ub3ZhPXRydWUmbmJfY2lkPTM0ODU2ODI5ZTUzZTQ2YzhiYWMwNDRkYWI3NzlmZDQ3XzE4MDAyNTY3MDMyOTAwMjM5Mzg%3D&bucket=dmg_local_email_bucket_7&message_id=VL5z5VB-1ShPrUqb&tag=morning&exps=nl_bucket_exp_24_1-v44%2Cnl_monetization_24_1-v11%2Cnl_prerollout_24_2-v1%2Cnova_traffic_exp_full_09-v9&email=djsupa408%40gmail.com&event_name=emailLinkClick&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rIjogImxnWjJVYkNTIiwgInBvcyI6ICJib2R5IiwgImFkX2lkIjogIjE4MDAyNTY3MDMyOTAwMjM5MzgiLCAibm92YV9zbmFwc2hvdF9pZCI6ICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4In0%3D"
+          />
+          <mj-text
+            font-family="Inter, Helvetica"
+            font-size="12px"
+            padding-top="0px"
+          >
+            Powered by Betterbuck
+          </mj-text>
+
+          <mj-text
+            font-size="20px"
+            font-weight="800"
+            font-family="Inter, Helvetica"
+            padding-top="0px"
+            padding-bottom="0px"
+          >
+            <a
+              style="text-decoration: none; color: #262626; line-height: 24px"
+              href="https://www.newsbreaklocal.com/m/articles/?af_dp=newsbreak%3A%2F%2Fopendoc%3Factionsrc%3Ddmg_local_email_bucket_7.web2&docid=0tq7HXxC&s=dmg_local_email_bucket_7.web2_fromweb&nb_uid=134139407&nb_zip=93637&email_click=VL5z5VB-1ShPrUqb&_r=0&exps=nl_bucket_exp_24_1-v44,nl_monetization_24_1-v11,nl_prerollout_24_2-v1,nova_traffic_exp_full_09-v9&tag=morning&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rcyI6IFsiN2NyTDdIVE8iLCAibGdaMlViQ1MiXSwgImFkX2lkcyI6IFsiMTgwMDI1NjcwMzI5MDAyMzkzOCIsICIxNzk1ODU1MjUzNTYwMTE1MjAxIl0sICJub3ZhX3NuYXBzaG90X2lkcyI6IFsiOTU5MzNhMjEzNGY2NGVjNWJjOWNlYjA0YmQyODdkMGZfMTc5NTg1NTI1MzU2MDExNTIwMSIsICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4Il19"
+              >7 Dumbest Mistakes (Almost) All Americans Make On The
+              Internet.</a
+            >
+          </mj-text>
+          
+          <mj-button background-color="white" border-radius="4px" border="1px solid #1b2e4b" align="left" font-size="13px" font-weight="400" line-height="120%" padding="26px" padding-top="20px">
+            <a style="
+                list-style-type: disc;
+                padding: 0 8px;
+                font-family: Inter, Helvetica;
+                color: rgba(0, 0, 0, 0.85);
+                font-size: 14px;
+                font-style: normal;
+                line-height: 22px;
+                text-decoration: none;
+                
+              " href="https://www.newsbreaklocal.com/redirect-v2?originalUrl=aHR0cHM6Ly9iZXR0ZXJidWNrLm5ldC9jb250ZW50L2V4cGVydHMtbWlzdGFrZXMvP3NvdXJjZT1uZXdzYnJlYWsmbmV3c2JyZWFrX2NpZD1udnNzXzM0ODU2ODI5ZTUzZTQ2YzhiYWMwNDRkYWI3NzlmZDQ3XzE4MDAyNTY3MDMyOTAwMjM5Mzgmc3ViaWQ9TkItTWVzc2FnZS1FeHBlcnRzLURELTMyOSZpc19ub3ZhPXRydWUmbmJfY2lkPTM0ODU2ODI5ZTUzZTQ2YzhiYWMwNDRkYWI3NzlmZDQ3XzE4MDAyNTY3MDMyOTAwMjM5Mzg%3D&bucket=dmg_local_email_bucket_7&message_id=VL5z5VB-1ShPrUqb&tag=morning&exps=nl_bucket_exp_24_1-v44%2Cnl_monetization_24_1-v11%2Cnl_prerollout_24_2-v1%2Cnova_traffic_exp_full_09-v9&email=djsupa408%40gmail.com&event_name=emailLinkClick&meta=eyJzdWJzX3RvcGljIjogImxvY2FsIiwgImZyZXEiOiAiZGFpbHkiLCAic2VuZF90cyI6IDE3MTgzMDQzMjYsICJsaW5rIjogImxnWjJVYkNTIiwgInBvcyI6ICJib2R5IiwgImFkX2lkIjogIjE4MDAyNTY3MDMyOTAwMjM5MzgiLCAibm92YV9zbmFwc2hvdF9pZCI6ICIzNDg1NjgyOWU1M2U0NmM4YmFjMDQ0ZGFiNzc5ZmQ0N18xODAwMjU2NzAzMjkwMDIzOTM4In0%3D"t>Read More</a>
+          </mj-button>
+                      <!-- NewsLetter Sub section-->
+          <mj-divider border-width="1px" border-style="dotted" />
+          <mj-image
+            src="https://i.imgur.com/qwLWJGw.png"
+            alt="Newsletter Sub"
+            href="https://www.newsbreaklocal.com/redirect/aHR0cHM6Ly93d3cubmV3c2JyZWFrLmNvbS9uZXdzbGV0dGVyP2NpdHk9TWFkZXJhLCBDQSZtZXNzYWdlX2lkPVZMNXo1VkItMVNoUHJVcWImZW1haWw9ZGpzdXBhNDA4QGdtYWlsLmNvbSZ0b3BpYz1wYXNzaXZlX2xvY2FsJnRhZz1tb3JuaW5nJnR5cGU9ZG1nX2xvY2FsX2VtYWlsX2J1Y2tldF83JmV4cHM9bmxfYnVja2V0X2V4cF8yNF8xLXY0NCxubF9tb25ldGl6YXRpb25fMjRfMS12MTEsbmxfcHJlcm9sbG91dF8yNF8yLXYxLG5vdmFfdHJhZmZpY19leHBfZnVsbF8wOS12OSZ6aXA9OTM2MzcmYnVja2V0PWRtZ19sb2NhbF9lbWFpbF9idWNrZXRfNyZldmVudF9uYW1lPWVtYWlsU3ViTGluayZtZXRhPWV5SnpkV0p6WDNSdmNHbGpJam9nSW14dlkyRnNJaXdnSW1aeVpYRWlPaUFpWkdGcGJIa2lMQ0FpYzJWdVpGOTBjeUk2SURFM01UZ3pNRFF6TWpaOQ%3D%3D" width="600px" height="auto"
+          />
+          </mj-text>
+                      <!-- App section-->
+          <mj-divider border-width="1px" border-style="dotted" />
+          <mj-image
+            src="https://i.imgur.com/1qk9hqx.png"
+            alt="appImage"
+            href="https://www.newsbreaklocal.com/redirect/aHR0cHM6Ly9uZXdzYnJlYWthcHAub25lbGluay5tZS8yMTE1NDA4MzY5P3BpZD1uZXdzbGV0dGVyX2JpZF9jYXJkJmFmX3dlYl9kcD1odHRwcyUzQSUyRiUyRnd3dy5uZXdzYnJlYWsuY29tJTJGYXBwJmM9TmV3c2xldHRlciUyMEZvb3RlciUyMENUQSZpc19yZXRhcmdldGluZz10cnVlJmFmX2luYWN0aXZpdHlfd2luZG93PTdkJmFmX2RwPW5ld3NicmVhayZhZl9zdWIxPSRkanN1cGE0MDhAZ21haWwuY29tJmFmX3N1YjI9JGRtZ19sb2NhbF9lbWFpbF9idWNrZXRfNyZhZl9zdWIzPSQxMzQxMzk0MDcmZXhwcz1ubF9idWNrZXRfZXhwXzI0XzEtdjQ0LG5sX21vbmV0aXphdGlvbl8yNF8xLXYxMSxubF9wcmVyb2xsb3V0XzI0XzItdjEsbm92YV90cmFmZmljX2V4cF9mdWxsXzA5LXY5JmJ1Y2tldD1kbWdfbG9jYWxfZW1haWxfYnVja2V0XzcmbWVzc2FnZV9pZD1WTDV6NVZCLTFTaFByVXFiJnRhZz1tb3JuaW5nJmVtYWlsPWRqc3VwYTQwOEBnbWFpbC5jb20mZXZlbnRfbmFtZT1lbWFpbEFwcEluc3RhbGxMaW5rJm1ldGE9ZXlKemRXSnpYM1J2Y0dsaklqb2dJbXh2WTJGc0lpd2dJbVp5WlhFaU9pQWlaR0ZwYkhraUxDQWljMlZ1WkY5MGN5STZJREUzTVRnek1EUXpNalo5" width="600px" height="auto"
+          />
+          <mj-text font-family="Inter, Helvetica" font-size="12px" line-height="16px" align="center" padding-top="20px" color="#656565">
+            Let us know if you have any questions by emailing <a href="mailto:feedback@newsbreakmail.com">feedback@newsbreakmail.com.</a>
+          </mj-text>
+          <mj-text font-family="Inter, Helvetica" font-size="12px" line-height="16px" align="center" padding-top="8px" color="#656565">
+            You are receiving this message because you subscribed to our newsletter. If you do not want to receive emails like this in the future, please click <a href="https://www.newsbreaklocal.com/redirect/aHR0cHM6Ly93d3cubmV3c2JyZWFrLmNvbS9tYW5hZ2UvbmV3c2xldHRlcj9tZXNzYWdlX2lkPVZMNXo1VkItMVNoUHJVcWImZW1haWw9ZGpzdXBhNDA4QGdtYWlsLmNvbSZ0b3BpYz1wYXNzaXZlX2xvY2FsJnRhZz1tb3JuaW5nJnR5cGU9ZG1nX2xvY2FsX2VtYWlsX2J1Y2tldF83JmV4cHM9bmxfYnVja2V0X2V4cF8yNF8xLXY0NCxubF9tb25ldGl6YXRpb25fMjRfMS12MTEsbmxfcHJlcm9sbG91dF8yNF8yLXYxLG5vdmFfdHJhZmZpY19leHBfZnVsbF8wOS12OSZidWNrZXQ9ZG1nX2xvY2FsX2VtYWlsX2J1Y2tldF83JmV2ZW50X25hbWU9ZW1haWxVbnN1YkxpbmsmbWV0YT1leUp6ZFdKelgzUnZjR2xqSWpvZ0lteHZZMkZzSWl3Z0ltWnlaWEVpT2lBaVpHRnBiSGtpTENBaWMyVnVaRjkwY3lJNklERTNNVGd6TURRek1qWjk%3D">here</a>
+          </mj-text>
+          <mj-text font-family="Inter, Helvetica" font-size="12px" line-height="16px" align="center" padding-top="8px" color="#656565">
+            © 2024 Particle Media, Inc. All Rights Reserved.
+          </mj-text>
+          <mj-text font-family="Inter, Helvetica" font-size="12px" line-height="16px" align="center" padding-top="8px" color="#656565">
+            800 W El Camino Real #300, Mountain View, CA 94040
+          </mj-text>
+          <mj-text  font-family="Inter,Helvetica" font-size="12px" line-height="16px" align="center" >
+            <a style="color: #656565;" href="https://www.newsbreaklocal.com/redirect/aHR0cHM6Ly93d3cubmV3c2JyZWFrLmNvbS90ZXJtcw==">Terms of Use</a>&nbsp;
+            <a style="color: #656565;" href="https://www.newsbreaklocal.com/redirect/aHR0cHM6Ly93d3cubmV3c2JyZWFrLmNvbS9wcml2YWN5">Privacy Policy</a>&nbsp;
+            <a style="color: #656565;" href="https://www.newsbreaklocal.com/redirect/aHR0cHM6Ly93d3cubmV3c2JyZWFrLmNvbS9jb250YWN0">Contact</a>
+          </mj-text>
+
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
